@@ -1,0 +1,165 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+.form__group-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__group-title {
+    margin-top: -7%;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.form__label--required {
+    margin-left: 5px;
+    color: #ff0000;
+}
+.form__group--text__name {
+    display: flex;
+    justify-content: space-between;
+}
+.form__input--text__name input {
+    padding: 25px;
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    appearance: none;
+}
+.form__group-content__left {
+    margin-left: 20px;
+}
+.form__group-example {
+    display: flex;
+    margin-top: 1%;
+}
+.form__group-example__name {
+    text-align: left;
+    color: #aaa;
+    padding-left: 5%;
+    white-space: nowrap;
+}
+.form__group-example__name-right {
+    text-align: left;
+    color: #aaa;
+    padding-left: 41%;
+    white-space: nowrap;
+}
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+
+.form__group-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.form__group-title__gender {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.form__input--radio {
+    margin-right: 385px;
+}
+.form__input--radio__gender {
+    accent-color: #000;
+    inline-size: 40px;
+    block-size: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.form__input--radio__label {
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 25px;
+    width: 620px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    appearance: none;
+}
+
+
+.form__input--text__post {
+    margin-right: 15px;
+    font-weight: bold;
+}
+.form__input--text__postcode input {
+    padding: 25px;
+    width: 570px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    appearance: none;
+}
+.form__group-example__postcode {
+    text-align: left;
+    color: #aaa;
+    padding-left: 10%;
+    padding-right: 35%;
+    white-space: nowrap;
+}
+
+
+
+.form__input--text input, .form__input--text__name input, .form__input--text__postcode input {
+    height: 40px;
+}
+.form__input--textarea textarea {
+    height: 180px;
+}
+.form__group-title__textarea {
+    margin-top: -20%;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+
+.form__button {
+    margin-top: 30px;
+}
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+}

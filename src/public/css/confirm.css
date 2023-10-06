@@ -1,0 +1,101 @@
+.confirm-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+.confirm-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.form__group-title {
+    /* margin-top: -7%; */
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.form__group-content input {
+    padding: 25px;
+    width: 620px;
+    appearance: none;
+    border: none;
+    user-select: none;
+    outline: none;
+    font-size: large;
+}
+.form__group-content__name {
+    display: flex;
+}
+.form__group-content__name input {
+    padding: 25px;
+    width: 310px;
+    appearance: none;
+    border: none;
+    user-select: none;
+    outline: none;
+    font-size: large;
+}
+
+.form__group-title__opinion {
+    margin-top: -15%;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.form__group-content__textarea textarea {
+    padding: 25px;
+    width: 620px;
+    appearance: none;
+    border: none;
+    user-select: none;
+    outline: none;
+    height: 180px;
+    text-align: top;
+    font-size: large;
+}
+
+
+
+
+
+
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+}
+.form__button-back {
+    margin-top: 10px;
+    text-align: center;
+}
+.form__button-fix {
+    cursor: pointer;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
