@@ -44,6 +44,12 @@ class ContactController extends Controller
 
     public function management()
     {
-        return view('management');
+        $contact = Contact::Paginate(4);
+        return view('management', compact('contact'));
+    }
+    public function search()
+    {
+        $contact = Contact::with('contact')->KeywordSearch($request->fullname)->KeywordSearch($request->gender)->KeywordSearch($request->date_start)->KeywordSearch($request->date_finish)->KeywordSearch($request->email)->get();
+        return view('management', compact('contact'));
     }
 }

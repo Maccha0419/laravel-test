@@ -1,0 +1,17 @@
+.management-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+.management-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}

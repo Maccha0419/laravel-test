@@ -34,4 +34,24 @@ class Contact extends Model
     //     $fullname = implode($postcode);
     //     return $this->attributes['last_name'] . ' ' . $this->attributes['first_name'];
     // }
+
+
+    public function scopeKeywordSearch($query, $fullname,$gender,$date_start,$date_finish,$email)
+    {
+        if (!empty($fullname)) {
+            $query->where('fullname', 'like', '%' . $fullname . '%');
+        }
+        if (!empty($gender)) {
+            $query->where('fullname', 'like', '%' . $gender . '%');
+        }
+        if (!empty($date_start)) {
+            $query->where('fullname', 'like', '%' . $date_start . '%');
+        }
+        if (!empty($date_finish)) {
+            $query->where('fullname', 'like', '%' . $date_finish . '%');
+        }
+        if (!empty($date_finish)) {
+            $query->where('fullname', 'like', '%' . $email . '%');
+        }
+    }
 }
